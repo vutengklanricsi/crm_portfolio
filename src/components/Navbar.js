@@ -4,35 +4,35 @@ import { SocialIcon } from "react-social-icons";
 
 export default function Navbar() {
   return (
-    <header className="bg-green-600">
+    <header className="bg-blue-400">
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
           <NavLink
             to="/"
             exact
             activeClassName="text-white"
-            className="inflex-flex items-center py-3 px-3 mr-4 text-green-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
+            className="inflex-flex items-center py-3 px-3 mr-4 text-blue-50 hover:text-blue-800 text-4xl font-bold cursive tracking-widest"
           >
             Richard
           </NavLink>
           <NavLink
             to="post"
-            activeClassName="text-green-100 bg-green-700"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800"
+            activeClassName="text-blue-50 bg-blue-700"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-blue-800"
           >
             Blog Posts
           </NavLink>
           <NavLink
             to="project"
-            activeClassName="text-green-100 bg-green-700"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800"
+            activeClassName="text-blue-50 bg-blue-700"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-blue-800"
           >
             Projects
           </NavLink>
           <NavLink
             to="/about"
-            activeClassName="text-green-100 bg-green-700"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800"
+            activeClassName="text-blue-50 bg-blue-700"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-blue-800"
           >
             About
           </NavLink>
