@@ -30,12 +30,16 @@ export default {
       options: {
         hotspot: true,
       },
-    },
-    {
-      name: "categories",
-      title: "Categories",
-      type: "array",
-      of: [{ type: "reference", to: { type: "category" } }],
+      fields: [
+        {
+          name: "alt",
+          type: "string",
+          title: "Alt",
+          options: {
+            isHighlighted: true,
+          },
+        },
+      ],
     },
     {
       name: "publishedAt",
