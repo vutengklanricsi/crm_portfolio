@@ -1,3 +1,4 @@
+
 export default {
   name: "project",
   type: "document",
@@ -8,7 +9,7 @@ export default {
       type: "string",
     },
     {
-      name: "name",
+      name: "date",
       type: "datetime",
     },
     {
@@ -21,8 +22,8 @@ export default {
     },
     {
       name: "projectType",
-      title: "Project type",
       type: "string",
+      title: "Project type",
       options: {
         list: [
           { value: "personal", title: "Personal" },
@@ -33,7 +34,7 @@ export default {
     },
     {
       name: "link",
-      url: "url",
+      type: "url",
     },
     {
       name: "tags",
