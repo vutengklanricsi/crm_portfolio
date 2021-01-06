@@ -17,21 +17,21 @@ export default function Navbar() {
           </NavLink>
           <NavLink
             to="post"
-            activeClassName="text-blue-50 bg-blue-700"
+            activeClassName="text-blue-50 bg-blue-500"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-blue-800"
           >
             Blog Posts
           </NavLink>
           <NavLink
             to="project"
-            activeClassName="text-blue-50 bg-blue-700"
+            activeClassName="text-blue-50 bg-blue-500"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-blue-800"
           >
             Projects
           </NavLink>
           <NavLink
             to="/about"
-            activeClassName="text-blue-50 bg-blue-700"
+            activeClassName="text-blue-50 bg-blue-500"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-blue-800"
           >
             About
