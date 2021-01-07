@@ -32,7 +32,7 @@ export default function SinglePost() {
         }`
       )
       .then((data) => {
-        console.log(data);
+        console.log("singlepost ", data);
         setSinglePost(data[0]);
       })
       .catch(console.error);
@@ -62,7 +62,7 @@ export default function SinglePost() {
             </div>
           </div>
           <img
-            src={singlePost.mainImage.asset.url}
+            src={urlFor(singlePost.mainImage).url()}
             alt={singlePost.title}
             className="w-full object-cover rounded-t"
             style={{ height: "400px" }}
