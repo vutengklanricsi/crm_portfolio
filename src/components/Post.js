@@ -20,7 +20,10 @@ export default function Post() {
         }
       }`
       )
-      .then((data) => setPost(data))
+      .then((data) => {
+        console.log(data);
+        setPost(data);
+      })
       .catch(console.error);
   }, []);
 
@@ -37,7 +40,7 @@ export default function Post() {
           {postData &&
             postData.map((post, index) => (
               <article>
-                <Link to={"/post/" + post.slug.current} key={post.slug.current}>
+                <Link to={"/post/" + post.slug.current} key={post.mainImage._id}>
                   <span
                     className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-blue-400"
                     key={index}
